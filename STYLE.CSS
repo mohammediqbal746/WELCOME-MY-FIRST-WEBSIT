@@ -1,0 +1,41 @@
+body{
+    font-family: 'Pushster', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+.COLOR{
+    color: darkmagenta;
+}
+h3{
+    color: rgb(250, 62, 37);
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.MOON{
+    color: darkorange;
+}
+.MM{
+    color: lawngreen;
+}
+.LL{
+    font-style:initial;
+    font-size: 40px;
+    color: darkorange;
+   background-color:gold;
+    text-decoration: none;
+    paddiing: 10px 40px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
