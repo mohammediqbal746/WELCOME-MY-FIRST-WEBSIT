@@ -11,7 +11,7 @@ h1{
 h3{
     color: rgb(250, 62, 37);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -47,4 +47,22 @@ section{
 }
 .BOOK{
     color: lawngreen;
+}
+.experience-item{
+    box-shadow: 10px 10px 20px yellow;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 0;
+}
+#web-dev-experience{
+    border-left: 7px;
+    border-image: linear gradient(blue )
+    border-image-slice:1
 }
